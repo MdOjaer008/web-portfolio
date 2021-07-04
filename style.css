@@ -5,6 +5,15 @@ body{
 .name-highlight{
     color: orange;
 }
+h1{
+    font-size: 30px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    color: slategray;
+}
 .image{
     font-size: 10px;
 } 
@@ -16,6 +25,7 @@ body{
 }
 .half-width img{
     width: 95%;
+    height: 450px;
 }
 .top-banner {
     background-image: url("images/top-banner.png");
@@ -32,4 +42,13 @@ section{
     border-radius: 8px;
     color: lime;
     font-weight: 700;
+}
+.dream-area{
+    margin: 80px 5px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.op{
+    color: cyan;
 }
